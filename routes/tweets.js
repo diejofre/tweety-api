@@ -17,7 +17,7 @@ router.post("/", (req, res) => {
   const name = req.body.name;
   const text = req.body.text;
   twitterBank.add(name, text);
-  res.sendStatus(200);
+  res.send({ name, content }).status(200);
 });
 
 module.exports = router;
