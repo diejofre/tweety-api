@@ -48,14 +48,14 @@ const getFakeName = function () {
 
 const getFakeTweet = function () {
   const awesome_adj = [
-    "increible",
-    "emocionante",
-    "increible",
-    "gracioso",
-    "dulce",
+    "increibles",
+    "emocionantes",
+    "increibles",
+    "graciosos",
+    "dulces",
     "cool",
-    "sorprendente",
-    "impresionante",
+    "sorprendentes",
+    "impresionantes",
   ];
 
   return (
